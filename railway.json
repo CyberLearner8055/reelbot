@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "nixpacks",
+    "options": {
+      "install_command": "pip install -r requirements.txt",
+      "start_command": "python bot.py"
+    }
+  }
+}
